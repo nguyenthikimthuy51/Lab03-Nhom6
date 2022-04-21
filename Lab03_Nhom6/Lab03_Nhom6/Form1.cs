@@ -16,5 +16,10 @@ namespace Lab03_Nhom6
         {
             InitializeComponent();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

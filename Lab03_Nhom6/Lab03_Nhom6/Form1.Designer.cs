@@ -29,13 +29,33 @@ namespace Lab03_Nhom6
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnBai4 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnBai4
+            // 
+            this.btnBai4.Location = new System.Drawing.Point(103, 286);
+            this.btnBai4.Name = "btnBai4";
+            this.btnBai4.Size = new System.Drawing.Size(313, 64);
+            this.btnBai4.TabIndex = 0;
+            this.btnBai4.Text = "Bài 4";
+            this.btnBai4.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnBai4);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnBai4;
     }
 }
 
